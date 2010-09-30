@@ -1,0 +1,8 @@
+Program('program_options.cpp', LIBS=['boost_program_options'])
+Program('regex.cpp', LIBS=['boost_program_options', 'boost_regex'])
+Program('custom_syntax.cpp', LIBS=['boost_program_options'])
+Program('multiple_sources.cpp', LIBS=['boost_program_options'])
+Program('option_groups.cpp', LIBS=['boost_program_options'])
+Program('options_description.cpp', LIBS=['boost_program_options'])
+Program('real.cpp', LIBS=['boost_program_options'])
+Program('response_file.cpp', LIBS=['boost_program_options'])
